@@ -1,0 +1,4 @@
+day = 26
+month = 'september'
+temp = -15
+print(f"Today is {month} {day} and its {temp} degrees outside")
