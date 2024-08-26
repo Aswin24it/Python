@@ -1,0 +1,4 @@
+day = 21
+temp = -15
+weight = 190.435623
+print(day + 2)
