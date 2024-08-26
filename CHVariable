@@ -1,0 +1,4 @@
+day = 26
+print(day)
+day = 25
+print(day)
