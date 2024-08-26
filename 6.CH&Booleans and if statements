@@ -1,0 +1,16 @@
+light_is_on = True
+
+if light_is_on:
+    print("The light is on!")
+
+light_is_on = False
+
+if light_is_on:
+    print("The light is on!")
+print("Hello")
+
+pc_is_on = False
+
+if pc_is_on:
+    print("The pc is on!")
+print("Hello")
