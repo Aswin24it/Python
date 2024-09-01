@@ -1,0 +1,27 @@
+Determine if a number is odd or even
+You'll be given a variable called number.
+Your task: If number is odd, return True. If number is even, return False
+hint:
+A % (modulo) is a way to determine the remainder after dividing a number. For example, if we did remainder = 5% 2, 
+remainder would hold the value of 1 because 2 can go into 5, 2 times, and then it has 1 as the remainder. You can use this to help you decide if a number is odd or even.
+
+# Python code​​​​​​‌​‌‌‌​‌​‌​‌‌​‌​​​​​​‌​‌​​ below
+# Use print("messages...") to debug your solution.
+
+show_expected_result = False
+show_hints = False
+
+def your_code():
+    
+    number = 7
+
+    # Your code goes here.
+    remainder = number % 2
+    if remainder == 1:
+        print("odd")
+    else:
+        print("even")
+    
+
+    return True
+
