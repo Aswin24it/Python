@@ -16,12 +16,9 @@ def your_code():
     number = 7
 
     # Your code goes here.
-    remainder = number % 2
+     remainder = number % 2
     if remainder == 1:
-        print("odd")
+        return True
     else:
-        print("even")
-    
-
-    return True
+        return False
 
