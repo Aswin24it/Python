@@ -16,3 +16,5 @@ if fortune_number == 3:
     fortune_text = 'You will get married this year'
 
 print(f"{fortune_text}, your lucky number is: {lucky_number}")
+
+#This is my first project on GitHub while learning Python for Non-Programmers by Nick Walter from Linkedin learning. The project is "Fortune Teller"
