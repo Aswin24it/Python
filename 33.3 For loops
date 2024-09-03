@@ -1,0 +1,73 @@
+for number in range(10) :
+    print(number)
+
+Fav_movies = ['Joker', 'Batman', 'Spiderman']
+
+for movies in Fav_movies :
+    print(movies)
+
+#sol
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Joker
+Batman
+Spiderman
+
+
+#CH  I want you to loop through 40 times, and each time that you loop, print out the number of the loop times two. So for example, 
+it should first print out two, then four, then six, then eight, but it should do that 40 times
+
+for numbers in range(40):
+    print((numbers + 1) * 2)
+
+# 0+1=1*2=2 1+1=2*2=4 2+1=3*2=6
+
+#sol
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+52
+54
+56
+58
+60
+62
+64
+66
+68
+70
+72
+74
+76
+78
+80
