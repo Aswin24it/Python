@@ -1,0 +1,7 @@
+Fav_Movies = ["Spiderman","Batman","Ironman"]
+
+print(Fav_Movies[1])
+
+Fav_Numbers = [1,2,3]
+
+print(Fav_Numbers[0])
