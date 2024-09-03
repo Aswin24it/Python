@@ -1,0 +1,34 @@
+Fav_Movies = ["Spiderman","Batman","Ironman","Joker"] #variable
+
+print(len(Fav_Movies)) #length
+
+Fav_Movies.append("Lego Movie") #add
+
+print(len(Fav_Movies)) #addlength
+
+print(Fav_Movies) #printing additional content
+
+Fav_Movies.insert(1,"Fightclub") #insert in middle
+
+print(Fav_Movies) #printing newly inserted 
+
+del(Fav_Movies[5]) #deleting by list number
+
+print(Fav_Movies) #printing with deleted list
+
+#CH #what I'd like you to do is remove enough items from fav_movies, until there's only one movie left
+
+del(Fav_Movies[1])
+del(Fav_Movies[1])
+del(Fav_Movies[1])
+del(Fav_Movies[1])
+
+print(Fav_Movies)
+
+#output
+4
+5
+['Spiderman', 'Batman', 'Ironman', 'Joker', 'Lego Movie']
+['Spiderman', 'Fightclub', 'Batman', 'Ironman', 'Joker', 'Lego Movie']
+['Spiderman', 'Fightclub', 'Batman', 'Ironman', 'Joker']
+['Spiderman']
